@@ -1,0 +1,18 @@
+
+
+en= (overlay-xy(square(100, "solid", "red"), 110, 0, rectangle(30, 250, "solid", "blue")))
+
+to= (overlay-xy(en, 150, 0, rectangle(180, 100, "solid", "red")))
+
+
+tre= (overlay-xy(to, 0, 110, rectangle(330, 30, "solid", "blue")))
+
+
+fire= (overlay-xy(tre, 0, 150, square(100, "solid", "red")))
+
+
+fem= (overlay-xy(fire, 150, 150, rectangle(180, 100, "solid", "red")))
+
+fem 
+
+
